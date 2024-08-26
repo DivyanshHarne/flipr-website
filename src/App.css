@@ -132,3 +132,64 @@
   padding-top: 1rem;
   font-weight: 400;
 }
+#home-part-2{
+  height: 100vh;
+  display: flex;
+  /* padding-top: 15vh; */
+  padding: 5% 5%;
+  gap: 50px;
+  justify-content: space-between;
+}
+#component-1 > a>  button{
+  display: flex;
+  /* margin-top: 30%; */
+  padding: 1vw 3.3vw;
+  color: #000;
+  font-weight: 600;
+  background-color: #FFD050;
+  border: none;
+  margin-bottom: 5%;
+  border-radius: 2px;
+  font-size: large;
+  transition-duration: 1s;
+  
+}
+#component-1> a > button:hover{
+  cursor: pointer;
+  transform: scale(1.2,1.2);
+  transition-property: all;  
+  transition-duration: 1s;
+}
+#component-1{
+  border: #000 1px;
+}
+#home-part-2l > h2{
+  padding: 5vh 0;
+  font-size:30px;
+  font-weight: bold;
+}
+#home-part-2r > h3{
+  padding: 5vh 0;
+  font-size:30px;
+  font-weight: bold;
+}
+#home-part-2l{
+  width: 50%;
+}
+#home-part-2r{
+  width: 40%;
+}
+.each-post{
+  height: 20vh;
+  /* display: flex; */
+  padding: 30px 40px;
+  
+}
+.each-post:hover{
+  height: 20vh;
+  background-color: #F4F0F8;
+}
+.each-post > h3{
+  font-size: 20px;
+  font-weight: bold;
+}
